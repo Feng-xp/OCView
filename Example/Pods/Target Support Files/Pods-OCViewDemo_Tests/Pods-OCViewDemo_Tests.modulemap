@@ -1,0 +1,6 @@
+framework module Pods_OCViewDemo_Tests {
+  umbrella header "Pods-OCViewDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

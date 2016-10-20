@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OCViewDemo_Example' do
+  pod 'OCViewDemo', :path => '../'
+
+  target 'OCViewDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
