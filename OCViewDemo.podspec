@@ -25,15 +25,15 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qzp' => 'qinzhipeng@jk.cn' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/OCViewDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Feng-xp/OCView.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'OCViewDemo/Classes/*.{h,m}'
 
-  s.subspec 'OCViewSub1' do |OCViewSub1|
-      networkEngine.source_files = 'OCViewDemo/Classes/OCViewSub1/*.{h,m}'
+  s.subspec 'OCViewSub1' do |sub1|
+      sub1.source_files = 'OCViewDemo/Classes/OCViewSub1/*.{h,m}'
   end
   
   # s.resource_bundles = {
