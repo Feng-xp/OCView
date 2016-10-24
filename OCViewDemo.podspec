@@ -30,7 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'OCViewDemo/Classes/**/*'
+  s.source_files = 'OCViewDemo/Classes/*.{h,m}'
+
+  s.subspec 'OCViewSub1' do |OCViewSub1|
+      networkEngine.source_files = 'OCViewDemo/Classes/OCViewSub1/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'OCViewDemo' => ['OCViewDemo/Assets/*.png']

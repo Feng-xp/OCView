@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0AEAF11DBDA21E000EFA54 /* OCViewSub1.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0AEAEF1DBDA21E000EFA54 /* OCViewSub1.h */; };
+		0F0AEAF21DBDA21E000EFA54 /* OCViewSub1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0AEAF01DBDA21E000EFA54 /* OCViewSub1.m */; };
+		0F0AEAF51DBDA250000EFA54 /* OCViewSub2.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0AEAF31DBDA250000EFA54 /* OCViewSub2.h */; };
+		0F0AEAF61DBDA250000EFA54 /* OCViewSub2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0AEAF41DBDA250000EFA54 /* OCViewSub2.m */; };
 		0F5429FE1DB8B956005C8874 /* OCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5429FC1DB8B956005C8874 /* OCView.h */; };
 		0F5429FF1DB8B956005C8874 /* OCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5429FC1DB8B956005C8874 /* OCView.h */; };
 		0F542A001DB8B956005C8874 /* OCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5429FD1DB8B956005C8874 /* OCView.m */; };
@@ -66,6 +70,10 @@
 		05DA6DD843A49676F90AB9282137DABE /* Pods-OCViewDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCViewDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		0DF13399BFE1F7E6DB8FBC23B865CF1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0AEAEF1DBDA21E000EFA54 /* OCViewSub1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewSub1.h; sourceTree = "<group>"; };
+		0F0AEAF01DBDA21E000EFA54 /* OCViewSub1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewSub1.m; sourceTree = "<group>"; };
+		0F0AEAF31DBDA250000EFA54 /* OCViewSub2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewSub2.h; sourceTree = "<group>"; };
+		0F0AEAF41DBDA250000EFA54 /* OCViewSub2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewSub2.m; sourceTree = "<group>"; };
 		0F5429FC1DB8B956005C8874 /* OCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCView.h; sourceTree = "<group>"; };
 		0F5429FD1DB8B956005C8874 /* OCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCView.m; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -176,6 +184,24 @@
 			path = "Example/Pods/Target Support Files/OCViewDemo";
 			sourceTree = "<group>";
 		};
+		0F0AEAED1DBDA204000EFA54 /* OCViewSub1 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0AEAEF1DBDA21E000EFA54 /* OCViewSub1.h */,
+				0F0AEAF01DBDA21E000EFA54 /* OCViewSub1.m */,
+			);
+			path = OCViewSub1;
+			sourceTree = "<group>";
+		};
+		0F0AEAEE1DBDA209000EFA54 /* OCViewSub2 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0AEAF31DBDA250000EFA54 /* OCViewSub2.h */,
+				0F0AEAF41DBDA250000EFA54 /* OCViewSub2.m */,
+			);
+			path = OCViewSub2;
+			sourceTree = "<group>";
+		};
 		1138D6ACEF4A744FAE27EA7628C82772 /* Pods-OCViewDemo_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +263,8 @@
 		435D3AC78309D75E1C157C1CDAD0E264 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0F0AEAEE1DBDA209000EFA54 /* OCViewSub2 */,
+				0F0AEAED1DBDA204000EFA54 /* OCViewSub1 */,
 				2789A28B6424C19AA5BFCF5D4A8A8212 /* ReplaceMe.m */,
 				0F5429FC1DB8B956005C8874 /* OCView.h */,
 				0F5429FD1DB8B956005C8874 /* OCView.m */,
@@ -384,7 +412,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2593536BEC56CA116F07682311CE32FC /* OCViewDemo-umbrella.h in Headers */,
+				0F0AEAF11DBDA21E000EFA54 /* OCViewSub1.h in Headers */,
 				0F5429FF1DB8B956005C8874 /* OCView.h in Headers */,
+				0F0AEAF51DBDA250000EFA54 /* OCViewSub2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,8 +583,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				17450285A166F64FD91AFC324F1748A7 /* OCViewDemo-dummy.m in Sources */,
+				0F0AEAF61DBDA250000EFA54 /* OCViewSub2.m in Sources */,
 				28C625C47A39429CD117BFBD236B2B9A /* ReplaceMe.m in Sources */,
 				0F542A011DB8B956005C8874 /* OCView.m in Sources */,
+				0F0AEAF21DBDA21E000EFA54 /* OCViewSub1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
